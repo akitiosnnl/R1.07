@@ -1,5 +1,5 @@
 print("l'intervalle est : I = [2,3[ U ]0,1] U [-10,-2]")
-x = int(input("entrez un nombre pour tester si il est dans l'intervalle :"))
+x = float(input("Entrez un nombre décimal :"))
 if x >= 2 and x < 3:
     print("x appartient a I")
     print("valeur entre 2 (inclus) et 3 (exclus)")
