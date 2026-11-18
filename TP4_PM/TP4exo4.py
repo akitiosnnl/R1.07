@@ -12,6 +12,5 @@ for i in range(len(L1)) :
         if cpt > occ_max:
             occ_max = cpt
             valeur_max = val_traite
-    print(f"Pour {val_traite} on a  {cpt} occurences.")
 
 print(f"Le nombre le plus fréquent dans la liste est le : {valeur_max}({occ_max} x) ")
