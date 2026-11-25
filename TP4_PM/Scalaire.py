@@ -1,11 +1,11 @@
-nMax = 3
+nMax = 5
 v1 = []
 v2 = []
 scal = 0
 
 
 while True:
-    n = int(input("Quelle est la taille de vos vecteurs [entre 1 et 3] ?"))
+    n = int(input("Quelle est la taille de vos vecteurs [entre 1 et 5] ?"))
     if n > nMax or n < 1:
         print("valeur incorrecte")
     else:
